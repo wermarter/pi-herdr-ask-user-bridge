@@ -12,7 +12,7 @@ Reports an rpiv `ask_user_question` questionnaire as **blocked** in Herdr while 
 
 ```sh
 pi install npm:@juicesharp/rpiv-ask-user-question
-pi install git:github.com/wermarter/pi-herdr-ask-user-bridge
+pi install npm:pi-herdr-ask-user-bridge
 ```
 
 Restart Pi or run `/reload`. If you previously installed a standalone copy of this bridge in `~/.pi/agent/extensions/`, remove that copy to avoid duplicate reports. Outside Herdr the bridge has no visible effect.
